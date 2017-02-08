@@ -1,0 +1,183 @@
+/*UNIVERSALS*/
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Pacifico|Righteous');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red-background {
+    background-color: #e40007;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.half {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.yellow-anchor {
+    color: yellow;
+}
+
+button {
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 15px;
+    border: none;
+}
+
+/*HEADER*/
+header {
+    padding: 30px 20px;
+    background-color: #e4000f;
+    height: 44px;
+}
+
+span h4 {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0 15px;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header>ul>li {
+    border-radius: 15px 15px 0 0;
+    background-color: #520003;
+    padding: 20px;
+}
+
+/*HERO*/
+
+#hero {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/bacon.jpg");
+    background-size: cover;
+    border-bottom: 5px solid #fff;
+}
+
+#hero>h1 {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 155px 500px;
+    background-color: rgba(255,255,255, .4);
+    text-transform: capitalize;
+}
+
+/*ASIDE*/
+
+aside {
+    width: 29.6%;
+    border-right: 5px solid #fff;
+}
+
+aside h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#blog-links {
+    padding-left: 0;
+}
+
+.blog-link {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+}
+
+.blog-link:hover {
+    background-color: #ffde0a;
+}
+
+aside, main {
+    height: 425px;
+}
+
+/*MAIN*/
+
+main {
+    width: 70%;
+    background-color: #520003;
+    /*padding: 0 10px;*/
+}
+
+main p {
+    padding: 0 10px;
+}
+
+main>h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+main>h4 {
+    font-family: 'Righteous', cursive;
+}
+
+main>h2, main>h4 {
+    text-align: center;
+}
+
+#main-wrapper {
+    margin-bottom: 10px;
+}
+
+#video {
+    height: 100px;
+}
+
+/*FOOTER*/
+
+footer {
+    height: 150px;
+    background-color: #e40007;
+    clear: both;
+    border-top: 4px solid #fff;
+}
+
+#copyright {
+    color: #fff;
+    text-align: right;
+}
+
+#social-media-wrapper {
+    text-align: center;
+}
+
+a .fa {
+    padding: 20px;
+    color: #fff;
+}

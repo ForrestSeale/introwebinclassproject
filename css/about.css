@@ -1,0 +1,45 @@
+/*HERO SECTION*/
+
+#hero2 {
+    background-image: url('../img/StockSnap_LVA4XLPNYA.jpg');
+    height: 350px;
+    background-position: center;
+    background-size: 100% 145%;
+    border-bottom: 5px solid #fff;
+}
+
+/*COLUMNS SECTION*/
+
+.column {
+    float: left;
+    width: 33.3%;
+    background-color: #520003;
+}
+
+.column h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.column>p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+#col-1 button {
+    background-color: #e40007;
+    display: block;
+    margin: 0 auto;
+}
+
+#col-2 button {
+    background-color: #e40007;
+    display: block;
+    margin: 0 auto;
+}
+
+#col-3 button {
+    background-color: #e40007;
+    display: block;
+    margin: 0 auto;
+}

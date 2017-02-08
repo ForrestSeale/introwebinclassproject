@@ -1,0 +1,39 @@
+/*HEADER*/
+
+header {
+    border-bottom: 5px solid #fff;
+}
+
+/*SECTION TAGS*/
+
+section {
+    
+    width: 48%;
+}
+
+/*MAP SIDE*/
+
+#form-map-side {
+    background-color: #e40007;
+    float: left;
+}
+
+#map {
+    padding: 20px;
+    width: 600px;
+    height:350px;
+}
+
+/*PHYSICAL SIDE*/
+
+#physical-info-side {
+    text-align: center;
+    margin-top: 20%;
+    margin-right: 30px;
+    float: right;
+    background-color: #520003;
+}
+
+button {
+    background-color: #e40007;
+}
